@@ -52,4 +52,4 @@
 
   Moip.HSBCValidator = HSBCValidator();
 
-})(window);
+})(global || window);

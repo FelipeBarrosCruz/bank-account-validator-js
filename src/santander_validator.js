@@ -52,4 +52,4 @@
 
   Moip.SantanderValidator = SantanderValidator();
 
-})(window);
+})(global || window);

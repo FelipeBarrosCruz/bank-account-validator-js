@@ -53,4 +53,4 @@
 
   Moip.ItauValidator = ItauValidator();
 
-})(window);
+})(global || window);

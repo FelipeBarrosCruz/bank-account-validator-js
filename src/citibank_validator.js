@@ -51,4 +51,4 @@
 
   Moip.CitibankValidator = CitibankValidator();
 
-})(window);
+})(global || window);

@@ -69,4 +69,4 @@
 
   Moip.BradescoCheckNumberCalculator = BradescoCheckNumberCalculator();
 
-})(window);
+})(global || window);

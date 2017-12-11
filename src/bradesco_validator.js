@@ -65,4 +65,4 @@
 
   Moip.BradescoValidator = BradescoValidator();
 
-})(window);
+})(global || window);

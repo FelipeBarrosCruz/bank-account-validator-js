@@ -53,4 +53,4 @@
 
   Moip.BanrisulValidator = BanrisulValidator();
 
-})(window);
+})(global || window);

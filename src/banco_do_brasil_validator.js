@@ -57,4 +57,4 @@
 
   Moip.BancoDoBrasilValidator = BancoDoBrasilValidator();
 
-})(window);
+})(global || window);

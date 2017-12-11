@@ -53,4 +53,4 @@
 
   Moip.CommonBankAccountValidator = CommonBankAccountValidator();
 
-})(window);
+})(global || window);

@@ -52,4 +52,4 @@
 
   Moip.GenericBankAccountValidator = GenericBankAccountValidator();
 
-})(window);
+})(global || window);

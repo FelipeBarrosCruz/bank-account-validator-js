@@ -50,4 +50,4 @@
 
   Moip.ItauCheckNumberCalculator = ItauCheckNumberCalculator();
 
-})(window);
+})(global || window);

@@ -51,4 +51,4 @@
 
   Moip.BancoDoBrasilCheckNumberCalculator = BancoDoBrasilCheckNumberCalculator();
 
-})(window);
+})(global || window);

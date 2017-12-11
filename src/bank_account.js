@@ -67,9 +67,15 @@
       }
 
       if(errors.length === 0) {
-        params.valid();
+        if (params.valid && typeof params.valid  === 'function') {
+          params.valid();
+        }
+        return Promise.resolve();
       } else {
-        params.invalid({ errors: errors });
+        if (params.invalid && typeof params.invalid === 'function') {
+          params.invalid({ errors: errors });
+        }
+        return Promise.reject({ errors: errors });
       }
     }
 
@@ -77,4 +83,5 @@
 
   Moip.BankAccount = BankAccount();
 
-})(window);
+})(global || window);
+

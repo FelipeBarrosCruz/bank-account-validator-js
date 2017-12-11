@@ -40,4 +40,4 @@
 
   Moip.BanrisulCheckNumberCalculator = BanrisulCheckNumberCalculator();
 
-})(window);
+})(global || window);
